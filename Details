@@ -1,0 +1,43 @@
+
+
+Array, Object Nested Destructure
+
+using destructure in various context
+  1. Normal Function
+  2. Arrow function
+
+Array Methods
+  Slice --> slice the into a sub-array
+    arguments
+      start --> starting index
+      end --> ends the index **end - 1**
+    return ---> array
+  splice --> alters the original array
+    start --> start index for removing means elements from index to last gets removed
+              eg: [1, 2, 3, 4, 5].slice(3); --> removes [4, 5] leaves arr as [1,2,3]
+    deleteCount --> instead of deleting till end stop the deletion with deletecount
+    ...items ---> items to be replaced in the deleted area
+  join --> join the elements and produce a result string
+    joins the elements with a separator
+    eg: [1,2,3].join('-'); --> 1-2-3
+  find --> find an element of the array with a condition
+  findLast --> find the last element of the array with a condition
+  findLastIndex --> find the index of an element of the array with a condition 
+  lastIndex --> find the last index of an element of the array with a condition 
+
+  Object Comparison 
+
+  Task Discussion
+
+
+Next Session:
+
+  array method arguments
+  Filter --> filter the new array of elements with a condition
+  Map --> iterate and create new array using return
+  Reduce --> 
+
+  Recap for important topics
+  GIT ( Source Control )
+
+  
